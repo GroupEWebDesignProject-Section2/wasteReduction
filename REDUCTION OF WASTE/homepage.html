@@ -1,0 +1,123 @@
+<html>
+         <head>
+		<title>Login Page</title>
+		<link rel="stylesheet" href="css/main.css"> 
+	</head>
+
+     <!--This session consists of the header image--> 
+	<body style="background:#ddbb77">
+	<div class="container">
+	<header>
+	<div><img src="images/YES55.jpg"></div>
+
+  <!--This is the navigation bar after the header image-->
+        <div id="fade" class="black_overlay"></div>
+	<div class="nav_all" align="center">
+	
+	
+	<a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="About us.html">About Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="gallery.html">Gallery</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="listing.html">Group Members</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="javascript:void(0)" onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Contact Us</a>
+	</div></div><br>
+	<!--This is the contact us-->
+	<div id="light" class="white_content"><a href="javascript:void(0)" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">Close</a> 
+	 <h1>Freely Contact Us on the Below Information Provided</h1>
+	    <ul>
+             <li>Cell: +231-555-812-663</li>
+	         <a href="mailto:emmanuelyardama.2017@yahoo.com"><li>Email Us</li></a><br>
+	         <li>Locate Us at Rehab Community, Paynesville, Liberia</li>
+	     </ul>
+	 
+  </div>
+  <
+    </header>
+	<h2>REDUCTION OF WASTE (ROW) </h2><br>
+	<div class="image_cup">
+        <img src="photos/cf.jpg">
+    </div>
+	<!--This is another h1 tags-->
+	<p align="center"><big><b>Login Section</big></b></p>
+	<h4 id="h4"></h4>
+	<!--This is a div with id selector span-->	
+		<form onsubmit=" return validate();" style="text-align:center;">
+			USER NAME:        <input type="text" id="username" size="15" align="center" placeholder="USER NAME" autofocus/><br><br>
+			PASSWORD:         <input type="password" id="userpassword" size="15" placeholder="PASSWORD"/><br><br>
+			CONFIRM PASSWORD: <input type="password" id="confirmPassword" size="15"placeholder="PASSWORD"/><br> 
+			<h3>Type<select></h3>
+			<option>Director</option>
+			<option>Accountant</option>
+			<option>Receptionist</option>
+			</select><br><br>
+			<input type="button"  style="background:red;" value="SIGN UP" onclick="validate()">
+		  </form>
+
+		<h1>To register with Us Please Click the link below<br><br>
+			<input type="button" value="CLICK HERE" style="background:red;" onclick="window.location.href='new.html'"/></h1>
+			<footer> <div class="footer mobile-collapse" align="center">
+<p><b>Reduction of Waste (ROW)</b><br>
+    <b>Copy Right &copy 2021 </b><br>	
+<b>Alrights Reserved</b><br>
+</p>
+	</footer> </div>
+			<script>
+	        function validate (){
+			var userName = document.getElementById('username').value;
+			var passwor = document.getElementById('userpassword').value;
+			var confirmPassword = document.getElementById('confirmPassword').value;
+
+			if(userName == "Donrichmond" && passwor == 1996 && confirmPassword == 1996){
+			window.location.href="Director/emmanuel.html"};
+						if(userName == "Yougie" && passwor == 12345 ){
+			window.location.href="Doctors/yougie.html"};
+			
+			//THIS IS TO MAKE SURE THAT THERE IS NO BLANK FIELD
+			if(userName.length ==0 || Passwor.length==0 || confirmPassword.length==0){
+				alert('PLEASE MAKE SURE TO FILL IN ALL FIELDS');
+			};
+			//THIS IS TO MAKE SURE THAT THE USER NAME IS EIGHT OR MORE THAN SIX
+			if(userName.length < 4){
+				alert("USER NAME MUST BE AT LESS FOUR CHARACTERS");
+			}
+				//THIS CODE IS TO CHECK IF THE TWO PASSWORD ARE THE SAME
+				else{
+				if(Passwor != confirmPassword){
+					alert('YOUR PASSWORD DO NOT MATCH');
+	
+				}
+				
+				}
+			};
+			
+			
+		
+		function subform (){
+			var uName = document.getElementById('uname').value;
+			var userPassword = document.getElementById('password').value;
+			var conPassword = document.getElementById('conPassword').value;
+			//THIS IS TO MAKE SURE THAT THERE IS NO BLANK FIELD
+			if(uName.length ==0 || userPassword.length==0 || conPassword.length==0){
+				alert('PLEASE MAKE SURE TO FILL IN ALL FIELDS');
+			};
+			//THIS IS TO MAKE SURE THAT THE USER NAME IS EIGHT OR MORE THAN SIX
+			if(uName.length < 8){
+				alert("USER NAME MUST BE AT LESS EIGHT CHARACTERS");
+			}
+			// THIS CODE WILL RUN ONLY WHEN THE USER NAME IS MORE THAN EIGHT
+			else{
+				//THIS CODE IS TO CHECK IF THE TWO PASSWORD ARE THE SAME
+				if(userPassword != conPassword){
+					alert('YOUR PASSWORD DO NOT MATCH')
+				}
+				
+				//FROM
+				else{
+					document.getElementById("h2").innerHTML= window.location.href='accountant.html';
+				}
+				}
+		};
+		</script>
+	</body>
+	
+</html>

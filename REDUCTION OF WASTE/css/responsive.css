@@ -1,0 +1,50 @@
+div.one-layout{
+	width: 47.5%;
+}
+div.one-layout-second{
+	margin:0;
+}
+div.one-layout-last{
+	margin: 0;
+}
+div.one-layout-last{
+	clear:both;
+	float:none;
+	width:auto;
+}
+
+div.navbar a{
+	width:25%;
+	border-bottom: 1px solid #bababa;
+}
+@media screen and (max-width: 620px){
+	div.navbar a{
+	width: 33%;
+	}
+}
+
+@media screen and (max-width: 500px){
+	div.navbar{
+		width:50%;
+		font-size: 85%;
+    }
+    
+	}
+@media screen and (max-width: 900px){
+	.container {
+		width: 90%;
+        float: none;
+	}
+    .mainbody_all{
+        widt: 100%;
+        float: none;
+        
+    }
+	div.mobile-collaspe{
+	width: auto;
+	float: none;
+	margin-right: 0;
+    width: 50%
+	}
+    
+}

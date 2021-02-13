@@ -1,0 +1,350 @@
+/* container for entire body */
+.container{
+	width: 100%;
+    margin: 0 auto;
+	background-color: black;
+	
+}
+/* Styling for navigation bar  */
+.navbar{
+	font-family: sans-serif;
+	padding: 0;
+	margin-top: -3px;
+}
+.nav_all{
+    width: 95%;
+    height: 25px;
+    background-color: snow;
+    margin: 0 auto;
+    margin-top: 5px;
+    box-shadow: 2px 2px 3px 2px gray;
+    padding-top: 10px;
+
+}
+.nav_all a{
+    text-align: center;
+}
+div.nav_all a:hover{
+    color: blue;
+    transition:all .9s; ease;
+    border-left-style: solid;
+    border-right-style: solid;
+}
+
+div.nav_all a{
+	text-decoration: none;
+    color: black;
+}
+/* navigation bar Styling ends here*/
+/* marquee */
+ marquee {
+	font-size: 150%;
+     color: darkblue; 
+   font-family:arial;
+   margin:  0 auto;
+   margin-bottom:  1%;
+   margin-top:  0 auto;
+   width: 500px;
+	}
+	
+/*this is for the .sidebar_left within the #container before the .mainbody*/
+.sidebar_left{
+	height:400px;  
+	float: left;
+	width:300px;
+	overflow: scroll;
+}
+/*this is for all the images within the .sidebar_left*/
+.sidebar_left img{
+	height:130px;  
+	width:130px;
+}
+
+/*this is for all the paragraphs within the .sidebar_left*/
+.sidebar_left p{
+	font-family: arial;
+	color: white;
+	padding-left: 20px;
+}
+.sidebar_left h1{
+	font-family: arial;
+	color: white;
+	padding-left: 10px;
+}
+/*this is for all the paragraphs within the .sidebar_left*/
+,sidebar_left p{
+	font-family: arial;
+}
+/*this is for the anchor tag that is within the .sidebar_left*/
+
+
+
+/*  Styling for header image */
+ header img{
+    width: 95%;
+    height: 190px;
+	margin-left: 2.5%;
+	margin-top: 0%;
+}
+
+
+
+/* Home horizontal blue line*/
+.line1{
+    margin-top: 4px;
+    height: 4px;
+    width: 50px;
+    background-color: red;
+    border-radius: 5px;
+    float: left;
+}
+/* Home horizontal blue line 2*/
+.line2{
+    margin-top: 4px;
+    height: 4px;
+    width: 50px;
+   background-color: red;
+    border-radius: 5px;
+    float: left;
+}
+/* body Image captions*/
+.one-layout p{
+    text-align: justify;
+    margin-top: 15px;
+    font-family: sans-serif;
+    color: white;
+}
+/* body h1 styling */
+.one-layout h1{
+    margin: 0 auto;
+    margin-top: 3px;
+    font-family: cursive;
+    color: white;
+    text-align: center;
+    text-shadow: 9px 9px 9px black, 9px 9px 25px black, 9px 9px 5px black;
+}
+
+/* content-box pop-up */
+.black_overlay {
+  display: none;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: snow;
+  z-index: 1001;
+  -moz-opacity: 0.8;
+  opacity: .80;
+  filter: alpha(opacity=80);
+}
+
+/* Styling for contact us*/
+
+.white_content {
+  display: none;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  padding: 16px;
+  border: 8px pink;
+  background-color: white;
+  z-index: 1002;
+  overflow: auto;
+}
+.white_content h1{
+  margin: 0 auto;
+    margin-top: 10px;
+    font-family: cursive;
+    color: Red;
+    text-align: center;
+    text-shadow: 9px 9px 9px black;  
+}
+.white_content ul{
+    list-style-type:none;
+    text-align: center;
+    font-family: monospace;
+    font-size: 2em;
+    
+}
+
+/* Styling for contact us ends here*/
+
+
+/* Styling footer */
+
+.footer{
+	background-color: black;
+	color:#fff;
+	width: 95%;
+	margin:0 auto;
+	height: 70px;
+    clear: both;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0%;  
+}
+.footer li{
+    margin: 0 auto;
+    margin-top: 5px;
+    list-style-type:none;
+    text-align: center;
+    padding-top: 2px;
+    
+}
+
+/* Styling for footer ends here */
+
+		
+	
+/* About us Styling */
+
+#main-content{
+    width: 80%;
+    height: 60%;
+    margin: 0 auto;
+    margin-top: 15px;  
+    box-shadow: 5px 5px 5px 5px brown;
+}
+
+
+
+.sub-div{
+    width: 70%;
+    height: 500px;
+    float: center;
+    background-color: white;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.sub-div h1{
+    font-family: serif;
+    margin-left: 80px;
+    margin-top: 20px; 
+    color: darkblue;
+}
+.line{
+    margin-top: 10px;
+    height: 4px;
+    width: 140px;
+    background-color: blue;
+    margin-left: 80px;
+    border-radius: 5px;
+    float: left;
+    
+}
+.sub-div p{
+    margin-left: 40px;
+    float: left;
+    padding-right: 30px;
+    text-indent: 30px;
+    text-emphasis-position: right;
+    text-align: justify;
+    line-height: 26px;
+    color: black;
+    font-family: sans-serif;
+
+}
+
+
+/* Styling for about us ends here*/
+
+/*this #container is for the .sidebar_left and .main_all*/
+#container{
+	width:95%;
+	height: 390px;
+    background-color: darkblue;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: content-box;
+    background-attachment: fixed;
+    margin: 0 auto;
+    margin-top: 0 auto;
+    margin-bottom: 0 auto;
+	position: static;
+	box-shadow: 5px 5px 5px 5px blue;
+}
+
+/*this is for the .sidebar_left within the #container before the .main_all*/
+,sidebar_left{
+	height:250px;  
+	float: left;
+	width:45%;
+	margin-top:15px;
+	margin-bottom:15px;
+	
+}
+
+}
+/*this is for the .main_all within #container*/
+.main_all {
+	height:250px; 
+	float: left;
+	width:50%;
+	text-align: justify;
+	
+}
+.main_all img{
+	 margin: 0 0 0 auto;
+     margin-top: 0 auto;
+    margin-bottom: 0 auto;
+	margin-right: 0 auto;
+	padding-left:2%;
+	padding-right:2%;
+	,margin-left: 12%;
+	width: 64%;
+	height:360px;
+	padding-bottom:2%;
+	padding-top:2%;
+}
+
+/* Styling for horizontal line in the .sidebar_left */
+
+sidebar_left .line6{
+    margin-top: -17px;
+    height: 6px;
+    width: 60px;
+	background-color: #ff5500;
+    float:left;
+    border-radius: 5px;
+    float: left;
+	padding-left: 15px;
+}
+.image_cup img{
+	width:60%;
+	float:center;
+	padding-left:20%;
+	padding-right:10%;
+}
+
+body h2{
+	 margin: 0 auto;
+    margin-top: 10px;
+    font-family: cursive;
+    color: blue;
+    text-align: center;
+}
+.image_big img{
+	width:40%;
+	float:center;
+	padding-left:30%;
+	padding-right:10%;
+	height: 60%;
+}
+
+/*this is only for the class seletor .gimage (gallery images)*/
+.gimage{
+	height:400px;  
+	width:800px;
+	overflow: scroll;
+    border:1px solid wheat;
+	background-color: blue;
+}
+/*this is for the height and width of the gallery Images only*/
+.gimage img{
+	height:200px;  
+	width:150px;
+}

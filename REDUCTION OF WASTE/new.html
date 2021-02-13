@@ -1,0 +1,158 @@
+<html>
+         <head>
+		<title>New</title>
+		<link href="css/main.css" rel="stylesheet" type="text/css">
+	</head>
+	
+     <!--This session consists of the header image--> 
+	<body>
+	<div class="container">
+	<header>
+	<div><img src="images/YES55.jpg"></div>
+
+  <!--This is the navigation bar after the header image-->
+        <div id="fade" class="black_overlay"></div>
+	<div class="nav_all" align="center">
+	
+	
+	<a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="homepage.html">Login or Book Appointment</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="gallery.html">Gallery</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="listing.html">Group Members</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="javascript:void(0)" onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Contact Us</a>
+	</div></div><br>
+	<!--This is the contact us-->
+	<div id="light" class="white_content"><a href="javascript:void(0)" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">Close</a> 
+	 <h1>Freely Contact Us on the Below Information Provided</h1>
+	    <ul>
+             <li>Cell: +231-555-812-663</li>
+	         <a href="mailto:emmanuelyardama.2017@yahoo.com"><li>Email Us</li></a><br>
+	         <li>Locate Us at Rehab Community, Paynesville, Liberia</li>
+	     </ul>
+	 
+  </div>
+  <
+    </header>
+	<!--This is another h1 tags-->
+	<div class="image_big">
+        <img src="photos/ca.jpg">
+    </div>
+	<!--This is another h1 tags-->
+	<h3 id="h3"></h3>
+	<h2>For futher processing, please fill in the forms below for indentification
+	</h2><br>
+	<!--This is a form tag-->
+<form onsubmit="validate();" style="text-align:center";>
+Name:<input type="text" id="fname" placeholder="Name" autofocus/><br>
+Male:<input type="radio" name="mSex" value="male"/>
+Female:<input type="radio" name="sex" value="female"/><br><br>
+What do Service Do you need from ROW?<br>
+Workshop Training<input type="checkbox" name="form" value="counseling"/>
+Gargbage Collection<input type="checkbox" name="form" value="emmergency"/>
+Gargbage Chemical<input type="checkbox" name="form" value="medicines"/><br><br>
+Select the Year you were born!
+<select>
+<option value="year"></option>
+<option value="year">1990</option>
+<option value="year">1991</option>
+<option value="year">1992</option>
+<option value="year">1993</option>
+<option value="year">1994</option>
+<option value="year">1995</option>
+<option value="year">1996</option>
+<option value="year">1997</option>
+<option value="year">1998</option>
+<option value="year">1999</option>
+<option value="year">2000</option>
+<option value="year">2001</option>
+<option value="year">2002</option>
+<option value="year">2003</option>
+<option value="year">2004</option>
+<option value="year">2005</option>
+<option value="year">2006</option>
+<option value="year">2007</option>
+</select>
+Select the Day you were born!
+<select>
+<option value="month"></option>
+<option value="month">1</option>
+<option value="month">2</option>
+<option value="month">3</option>
+<option value="month">4</option>
+<option value="month">5</option>
+<option value="month">6</option>
+<option value="month">7</option>
+<option value="month">8</option>
+<option value="month">9</option>
+<option value="month">10</option>
+<option value="month">11</option>
+<option value="month">12</option>
+<option value="month">13</option>
+<option value="month">14</option>
+<option value="month">15</option>
+<option value="month">16</option>
+<option value="month">17</option>
+<option value="month">18</option>
+<option value="month">19</option>
+<option value="month">20</option>
+<option value="month">21</option>
+<option value="month">22</option>
+<option value="month">23</option>
+<option value="month">24</option>
+<option value="month">25</option>
+<option value="month">26</option>
+<option value="month">27</option>
+<option value="month">28</option>
+<option value="month">29</option>
+<option value="month">30</option>
+<option value="month">31</option>
+</select>
+Select what month you were born!
+<select>
+<option value="month"></option>
+<option value="month">January</option>
+<option value="month">February</option>
+<option value="month">March</option>
+<option value="month">April</option>
+<option value="month">May</option>
+<option value="month">June</option>
+<option value="month">July</option>
+<option value="month">August</option>
+<option value="month">September</option>
+<option value="month">October</option>
+<option value="month">November</option>
+<option value="month">December</option>
+</select><br><br>
+Within not lessthan 50 words, explain about your current issue.<br/>
+<textarea name="bio" rows="10" cols="40" placeholder="Type Something Here!"></textarea><br><br>
+Select a Picture!<br>
+<input type="file"/> <br><br>
+<input type="button" value="Submit!"  style="background:#eebbcc;" onclick="validate()"/></form><br><br>
+			<footer> <div class="footer mobile-collapse" align="center">
+<p><b>Reduction of Waste (ROW)</b><br>
+    <b>Copy Right &copy 2021 </b><br>	
+<b>Alrights Reserved</b><br>
+</p>
+	</footer> </div>
+	<script>
+	        function validate (){
+			var firstName = document.getElementById('fname').value;
+			//THIS IS TO MAKE SURE THAT FIRST NAME MUST BE FILLED
+			if(firstName.length ==0){
+				alert('PLEASE MAKE SURE TO FILL IN ALL FIELDS');
+			};
+			//THIS IS TO MAKE SURE THAT THE USER NAME IS EIGHT OR MORE THAN SIX
+			if(firstName.length < 8){
+				alert("NAME MUST BE ATLEAST EIGHT CHARACTERS");
+			}
+				//FROM
+				else{
+                  {
+				alert("YOUR INFORMATION HAVE BEEN CAPTURED PROCEED TO THE HOME PAGE");
+			}				}
+				
+		};
+		</script>
+	</body>
+	
+</html>
